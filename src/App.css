@@ -2,10 +2,10 @@
   margin: 30px;
 }
 
-.App-logo {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
+.App-header h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 30px 0;
 }
 
 .App-footer {
