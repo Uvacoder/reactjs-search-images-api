@@ -1,7 +1,6 @@
 import React from "react";
-import Dictionary from "./Dictionary";
-
-import "./App.css";
+import "./layouts/App.css";
+import Dictionary from "./components/Dictionary";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
@@ -12,7 +11,7 @@ export default function App() {
           <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="mountain" />
         </main>
         <footer className="App-footer">
           <small>Coded by Marina Momčilov</small>
