@@ -2,6 +2,11 @@
   margin: 30px;
 }
 
+.App {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 .App-header h1 {
   text-align: center;
   padding: 10px;
