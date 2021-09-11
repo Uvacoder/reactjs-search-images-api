@@ -1,7 +1,8 @@
 import React from "react";
 import "./layouts/App.css";
-import Dictionary from "./components/Dictionary";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Dictionary from "./components/Dictionary";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -13,9 +14,7 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="mountain" />
         </main>
-        <footer className="App-footer">
-          <small>Coded by Marina Momčilov</small>
-        </footer>
+        <Footer />
       </div>
     </div>
   );
